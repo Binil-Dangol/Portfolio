@@ -1,0 +1,57 @@
+@media (max-width: 600px) {
+  .container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 600px) {
+  .container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+  }
+
+  .introContainer {
+    padding-top: 50px;
+  }
+}
+
+.picture {
+  max-width: clamp(10rem, calc(1rem + 35vw), 30rem);
+  aspect-ratio: 1/1;
+  object-fit: contain;
+}
+
+.introContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: auto clamp(4px, calc(1rem + 5vw), 5% );
+}
+
+.introContainer h3 {
+  color: #666666;
+  font-family: Montserrat, Poppins;
+  font-size: clamp(0.5rem, calc(0.5rem + 0.7vw), 2rem);
+}
+
+.name {
+  padding-top: 10px;
+  font-size: clamp(1.5rem, calc(1rem + 3vw), 5rem);
+  color: #333333;
+  font-family: Playwrite AU SA,Montserrat, Poppins;
+  margin-top: 10px;
+  font-weight: 400px;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.intro {
+  color: #666666;
+  font-size: clamp(0.5rem, calc(0.5rem + 0.5vw), 2rem);
+}
