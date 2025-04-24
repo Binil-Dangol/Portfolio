@@ -15,6 +15,16 @@
   .header {
     padding-right: 3rem;
   }
+
+  .logo {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 490px) {
+  .logo {
+    font-size: 14px;
+  }
 }
 
 .logo {
@@ -22,6 +32,7 @@
   justify-content: space-evenly;
   width: 20%;
   color: #333333;
+  padding-left: 8px;
 }
 
 .links {
