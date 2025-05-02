@@ -4,7 +4,7 @@ function Button({ text }) {
   return (
     <>
       <div className={style.buttonWrapper}>
-        <a href={`${process.env.PUBLIC_URL}/files/Binil_Dangol_CV.pdf`} download><button className={style.button}>{text}</button></a>
+        <a href={`${import.meta.env.BASE_URL}/files/Binil_Dangol_CV.pdf`} download><button className={style.button}>{text}</button></a>
       </div>
     </>
   );
