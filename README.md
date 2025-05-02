@@ -5,7 +5,7 @@ A personal portfolio website built with React.js to showcase projects, skills, a
 ## Live Demo
 
 Check out the live website here:  
-[https://binil-dangol.github.io/portfolio](https://binil-dangol.github.io/portfolio)
+[https://binil-dangol.github.io/Portfolio](https://binil-dangol.github.io/Portfolio)
 
 ## About The Project
 
