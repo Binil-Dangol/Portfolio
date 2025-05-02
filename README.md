@@ -1,12 +1,26 @@
-# React + Vite
+# Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio website built with React.js to showcase projects, skills, and contact details. This project features a responsive design, smooth scrolling navigation (using react-scroll), a loader on initial page load, and dynamic contact functionalities.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Check out the live website here:  
+[https://binil-dangol.github.io/portfolio](https://binil-dangol.github.io/portfolio)
 
-## Expanding the ESLint configuration
+## About The Project
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This portfolio demonstrates my expertise in frontend web development, with a focus on user-centric design and smooth interactions. Key features include:
+
+- **Responsive Design:** Seamlessly adapts to mobile, tablet, and desktop views.
+- **Smooth Scrolling:** Navigation powered by react-scroll for an engaging experience.
+- **Loader Component:** Displays a loading indicator until all resources are ready.
+- **Interactive Contact Form:** Utilizes Formspree for email submissions.
+- **Downloadable Resume:** Easily accessible through a dedicated button.
+
+## Built With
+
+- [React.js](https://reactjs.org/)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [React Scroll](https://www.npmjs.com/package/react-scroll)
+- CSS Modules
+- [GitHub Pages](https://pages.github.com/)
