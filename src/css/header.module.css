@@ -18,15 +18,9 @@
   }
 }
 
-@media (max-width: 493px) {
-  .logo {
-    margin-left: 0.5rem;
-  }
-}
-
 .logo {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   aspect-ratio: 1/1;
   color: #333333;
   height: 80%;
@@ -38,4 +32,16 @@
   width: 50%;
   justify-content: flex-end;
   height: 100%;
+}
+
+@media (max-width: 493px) {
+  .logo {
+    margin-left: 1.5rem;
+  }
+}
+
+@media (max-width: 390px) {
+  .logo {
+    margin-left: 2rem;
+  }
 }
