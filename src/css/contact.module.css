@@ -1,0 +1,140 @@
+.contactSection {
+  padding: 2rem;
+  text-align: center;
+  height: 100vh;
+  margin-bottom: 2rem;
+}
+
+.contactSection h1 {
+  margin-bottom: 5rem;
+  color: #333;
+}
+
+.contactSection p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+.contactWrapper {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contactInfo {
+  flex: 1;
+  min-width: 250px;
+  text-align: left;
+}
+
+.socialLinks {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.socialLinks a {
+  font-size: 2rem;
+  color: #333333;
+  transition: color 0.2s ease;
+}
+
+.socialLinks a:hover {
+  color: #0056b3;
+}
+
+.contactFormContainer {
+  flex: 1;
+  min-width: 250px;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 500px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.contactForm input,
+.contactForm textarea {
+  background-color: transparent;
+  color: #333;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  width: 100%;
+  font-family: Poppins, Montserrat;
+}
+
+.contactForm input:focus,
+.contactForm textarea:focus {
+  outline: none;
+  border-color: #007BFF;
+}
+
+.contactForm button {
+  padding: 0.75rem;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  background-color: #8ca6db;
+  color: #333333;
+  cursor: pointer;
+  transition: background-color 1.5s, box-shadow 0.5s;
+}
+
+.contactForm button:hover {
+  color: black;
+  background-color: #B0B0B0;
+  transition: background-color 1.5s, box-shadow 0.5s, color 1.5s;
+  box-shadow: 0px 0px 10px #333333;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: -0.5rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.alternativeContacts {
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  color: #555;
+}
+
+.alternativeContacts a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.alternativeContacts a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .contactWrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contactInfo {
+    text-align: center;
+  }
+
+  .socialLinks {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .contactSection h1 {
+    margin-bottom: 2rem;
+  }
+}

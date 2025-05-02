@@ -1,5 +1,6 @@
 import NavBar from '../components/NavBar';
 import style from '../css/header.module.css'
+import logo from '../assets/logos/logo.png'
 
 function Header() {
 
@@ -8,8 +9,7 @@ function Header() {
       <div className={style.header}>
         
         <div className={style.logo}>
-          <img src="/vite.svg" alt="logo" />
-          <h2>Logo</h2>
+          <img src={logo} alt="logo" />
         </div>
 
         <div className={style.links}>

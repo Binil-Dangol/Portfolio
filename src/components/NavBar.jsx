@@ -2,15 +2,17 @@ import style from '../css/navbuttons.module.css';
 import { Link } from 'react-scroll';
 
 function NavBar() {
+
   return (
     <>
 
       <Link
         to="about"
-        spy={true}             // Enables active monitoring
+        isDynamic={true}
+        spy={true}             
         smooth={true}
         duration={500}
-        offset={-70}           // Adjust if your header overlays the content
+        offset={-90}           
         className={style.navButton}
         activeClass={style.active}
       >
@@ -19,6 +21,7 @@ function NavBar() {
       
       <Link
         to="projects"
+        isDynamic={true}
         spy={true}
         smooth={true}
         duration={500}
@@ -28,26 +31,26 @@ function NavBar() {
         Projects
       </Link>
 
-      {/* Make sure you have an Element for "skills" in App.jsx */}
       <Link
         to="skills"
+        isDynamic={true}
         spy={true}
         smooth={true}
         duration={500}
-        offset={-70}
+        offset={-50}
         className={style.navButton}
         activeClass={style.active}
       >
         Skills
       </Link>
       
-      {/* Make sure you have an Element for "contact" in App.jsx */}
       <Link
         to="contact"
+        isDynamic={true}
         spy={true}
         smooth={true}
         duration={500}
-        offset={-70}
+        offset={-10}
         className={style.navButton}
         activeClass={style.active}
       >

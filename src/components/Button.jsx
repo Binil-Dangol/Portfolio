@@ -4,7 +4,7 @@ function Button({ text }) {
   return (
     <>
       <div className={style.buttonWrapper}>
-        <button className={style.button}>{text}</button>
+        <a href="/files/Binil_Dangol_CV.pdf" download><button className={style.button}>{text}</button></a>
       </div>
     </>
   );

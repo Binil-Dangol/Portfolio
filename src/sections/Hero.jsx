@@ -17,7 +17,7 @@ function Hero() {
 
           <h3>Web Dev Explorer | React.js Enthusiast</h3>
 
-          <p className={style.intro}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ab fugiat consectetur dicta? Eius, perspiciatis beatae quae expedita culpa sed ipsum iste eaque quam velit libero placeat aliquid voluptate officia et sequi minima tempore repudiandae eum odit! Blanditiis laborum quas perferendis, unde iusto, ut dignissimos atque, quibusdam dicta obcaecati officia.</p>
+          <p className={style.intro}>Hello, I'm a final-year CSIT student with a strong programming foundation and an enduring passion for web development. I excel in HTML, CSS, JavaScript, and React.js, and have built practical experience through full-stack projects using the MERN stack. I thrive on crafting innovative, responsive, and user-centric designs, and I'm eager to contribute creative solutions while expanding my skills as an aspiring full-stack developer.</p>
 
         </div>
 

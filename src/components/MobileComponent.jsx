@@ -17,7 +17,7 @@ function MobileComponent({ projects }) {
               <p style={{width:"80%"}}>{item.description}</p>
               <a target='blank' href={item.sourceCode}><button>Source Code <FaExternalLinkAlt style={{ marginLeft: "0.5rem" }} /></button></a>
               {
-                item.viewLive ? <a target='blank' href={item.sourceCode}><button>View Live <FaExternalLinkAlt style={{ marginLeft: "0.5rem" }} /></button></a> : null
+                item.viewLive ? <a target='blank' href={item.viewLive}><button>View Live <FaExternalLinkAlt style={{ marginLeft: "0.5rem" }} /></button></a> : null
               }
             </div>
           ))

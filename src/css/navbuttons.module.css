@@ -21,10 +21,17 @@
 
 @media (max-width: 493px) {
   .navButton {
-    width: 81px;
-    font-size: 1rem;
-    padding-right: 5px;
-    padding-left: 5px;
+    width: 5rem;
+    font-size: 0.8rem;
+    padding: auto;
+  }
+}
+
+@media (max-width: 390px) {
+  .navButton {
+    width: 4rem;
+    font-size: 0.7rem;
+    padding: auto;
   }
 }
 
@@ -34,7 +41,7 @@
 }
 
 .active {
-  background-color: #8ca6db;
+  background-color: #557aab;
   color: #fff;
   font-weight: bold;
 }
