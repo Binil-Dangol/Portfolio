@@ -18,6 +18,12 @@
   }
 }
 
+@media (max-width: 493px) {
+  .logo {
+    margin-left: 1rem;
+  }
+}
+
 .logo {
   display: flex;
   justify-content: center;

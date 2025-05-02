@@ -14,11 +14,6 @@ function Header() {
 
         <div className={style.links}>
           
-          {/* <p>Home</p>
-          <p>About</p>
-          <p>Projects</p>
-          <p>Contact</p> */}
-
           <NavBar/>
 
         </div>
