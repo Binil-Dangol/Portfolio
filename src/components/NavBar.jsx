@@ -1,7 +1,12 @@
 import style from '../css/navbuttons.module.css';
-import { Link } from 'react-scroll';
+import { useEffect } from 'react';
+import { Link, scrollSpy } from 'react-scroll';
 
 function NavBar() {
+
+  useEffect(() => {
+    scrollSpy.update();
+  }, []);
 
   return (
     <>
