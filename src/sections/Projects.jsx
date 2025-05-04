@@ -9,6 +9,9 @@ import todoSS1 from "../assets/screenshots/todoSS1.png";
 import todoSS2 from "../assets/screenshots/todoSS2.png";
 import todoSS3 from "../assets/screenshots/todoSS3.png";
 
+import xoSS1 from "../assets/screenshots/xoSS1.png";
+import xoSS2 from "../assets/screenshots/xoSS2.png";
+
 import DesktopComponent from '../components/DesktopComponent';
 import MobileComponent from '../components/MobileComponent';
 
@@ -39,7 +42,18 @@ function Projects() {
     viewLive: "https://binil-dangol.github.io/To-Do-List/"
   }
 
-  const projects = [quiz, todo];
+  const tic_tac_toe = {
+    name: "Tic-Tac-Toe",
+    screenshots: [
+      xoSS1,
+      xoSS2
+    ],
+    description: "A simple Tic Tac Toe game built with React.js and Vite.",
+    sourceCode: "https://github.com/Binil-Dangol/Tic-Tac-Toe",
+    viewLive: "https://binil-dangol.github.io/Tic-Tac-Toe/"
+  }
+
+  const projects = [quiz, todo, tic_tac_toe];
 
   const isMobile = useMediaQuery({ query: '(max-width: 499px)' });
 
