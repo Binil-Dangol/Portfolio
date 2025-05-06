@@ -12,6 +12,9 @@ import todoSS3 from "../assets/screenshots/todoSS3.png";
 import xoSS1 from "../assets/screenshots/xoSS1.png";
 import xoSS2 from "../assets/screenshots/xoSS2.png";
 
+import weatherSS1 from "../assets/screenshots/SS_(Nest Hub).png";
+import weatherSS2 from "../assets/screenshots/SS_(iPhone SE).png";
+
 import DesktopComponent from '../components/DesktopComponent';
 import MobileComponent from '../components/MobileComponent';
 
@@ -53,7 +56,18 @@ function Projects() {
     viewLive: "https://binil-dangol.github.io/Tic-Tac-Toe/"
   }
 
-  const projects = [quiz, todo, tic_tac_toe];
+  const weather_app = {
+    name: "Weather App",
+    screenshots: [
+      weatherSS1,
+      weatherSS2
+    ],
+    description: "A weather app that fetches weather data from openweathermap API of the requested city.",
+    sourceCode: "https://github.com/Binil-Dangol/Weather-App",
+    viewLive: "https://binil-dangol.github.io/Weather-App/"
+  }
+
+  const projects = [quiz, todo, tic_tac_toe, weather_app];
 
   const isMobile = useMediaQuery({ query: '(max-width: 499px)' });
 
