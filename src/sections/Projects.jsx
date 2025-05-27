@@ -15,6 +15,15 @@ import xoSS2 from "../assets/screenshots/xoSS2.png";
 import weatherSS1 from "../assets/screenshots/SS_(Nest Hub).png";
 import weatherSS2 from "../assets/screenshots/SS_(iPhone SE).png";
 
+import MovieSS1 from "../assets/screenshots/MovieSS1.png";
+import MovieSS2 from "../assets/screenshots/MovieSS2.png";
+import MovieSS3 from "../assets/screenshots/MovieSS3.png";
+
+import AccSS1 from "../assets/screenshots/AccSS1.png";
+import AccSS2 from "../assets/screenshots/AccSS2.png";
+import AccSS3 from "../assets/screenshots/AccSS3.png";
+import AccSS4 from "../assets/screenshots/AccSS4.png";
+
 import DesktopComponent from '../components/DesktopComponent';
 import MobileComponent from '../components/MobileComponent';
 
@@ -67,7 +76,32 @@ function Projects() {
     viewLive: "https://binil-dangol.github.io/Weather-App/"
   }
 
-  const projects = [quiz, todo, tic_tac_toe, weather_app];
+  const movie_search = {
+    name: "Movie Search",
+    screenshots: [
+      MovieSS1,
+      MovieSS2,
+      MovieSS3
+    ],
+    description: "A movie search app that displays top movies and allows users to search for movies.",
+    sourceCode: "https://github.com/Binil-Dangol/Movie-Search",
+    viewLive: "https://binil-dangol-movie-search.netlify.app/"
+  }
+
+  const accordion = {
+    name: "Accordion",
+    screenshots: [
+      AccSS1,
+      AccSS2,
+      AccSS3,
+      AccSS4
+    ],
+    description: "A React + Vite project demonstrating a configurable Accordion component with single- and multi-selection modes, plus light/dark theme toggle.",
+    sourceCode: "https://github.com/Binil-Dangol/Accordion",
+    viewLive: "http://binil-dangol.github.io/Accordion/"
+  }
+
+  const projects = [quiz, todo, tic_tac_toe, weather_app, movie_search, accordion];
 
   const isMobile = useMediaQuery({ query: '(max-width: 499px)' });
 
